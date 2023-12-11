@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from bs4 import BeautifulSoup
 
 st.set_page_config(
     page_title="My Streamlit App",
